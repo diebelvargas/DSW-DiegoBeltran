@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>designT3</title>
+</head>
+<body>
+    <header>
+        <h1>CAPACITACIÓN ETIQUETAS SEMANTICAS Y CSS GRID</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>Inicio</li>
+            <li>Temas</li>
+                <ul>
+                    <li>Tema 1</li>
+                    <li>Tema 2</li>
+                </ul>
+            <li>Recursos Digitales</li>
+                <ul>
+                    <li>Recurso 1</li>
+                    <li>Recurso 2</li>
+                </ul>
+            <li>Aprendizaje</li>
+                <ul>
+                    <li>Actividad 1</li>
+                    <li>Actividad 2</li>
+                </ul>
+            <li>Acerca De</li>
+        </ul>
+    </nav>
+<section>
+    <p>
+        <h3>PROPOSITO DEL SITIO</h3>
+        Herramienta didáctica de apoyo que busca suplir la necesidad de la presencialidad. Su objetivo principal es la educación por medio de una estrategía construida a través de <strong>Objetos Virtuales de Aprendizaje OVA</strong>, y cuyas temáticas a tratar son las <strong>etiquetas semánticas y CSS Grid</strong>
+    </p>
+</section>
+<article>
+    <p>
+        <h4>ETIQUETAS SEMÁNTICAS</h4>
+        Este tipo de etiquetas que componen la web semántica nos sirven para que cualquier mecanismo automático (un navegador, un m otor de búsqueda, un lector de feeds...) que lea un sitio web sepa con exactitud qué partes de su contenido corresponden a cada una de las partes típicas de un sitio.<br> 
+        Observando esas etiquetas semánticas estructurales, cualquier  sistema podrá procesar la página y saber cómo está estructurada. Algunas de estas etiquetas que introduce HTML5 son: <br>
+        <li>
+            <strong>section</strong>: se utiliza para representar una sección "general" dentro de un documento o aplicación, como un capítulo de un libro. Puede contener subsecciones y si lo acompañamos de h1-h6 podemos estructurar mejor toda la página creando jerarquías del contenido, algo muy favorable para el buen posicionamiento web.
+        </li>
+        <li>
+            <strong>article</strong>: representa un componente de una página que consiste en una composición autónoma en un documento, página, aplicación, o sitio web con la intención de que pueda ser reutilizado y repetido. Podría utilizarse en los artículos de los foros, una revista o el artículo de periódico, una entrada de un blog, un comentario escrito por un usuario, un widget interactivo o cualquier otro artículo independiente de contenido. Cuando los elementos de "article" son anidados, los elementos interiores representan los artículos que en principio son relacionados con el contenido del artículo externo. Por ejemplo, un artículo de un blog que permite comentarios de usuario, dichos comentarios se podrían representar con "article"
+        </li>
+        <li>
+            <strong>aside</strong>: representa una sección de la página que abarca un contenido relacionado con el contenido que lo rodea, por lo que se le puede considerar un contenido independiente. Este elemento puede utilizarse para efectos tipográficos, barras laterales, elementos publicitarios, para grupos de elementos de la navegación, u otro contenido que se considere separado del contenido principal de la página.
+        </li>
+        <li>
+            <strong>header</strong>: representa un grupo de artículos introductorios o de navegación. Está destinado a contener por lo general la cabecera de la sección (un elemento h1-h6 o un elemento hgroup, pero no es necesario.
+        </li>
+        <li>
+            <strong>nav</strong>: representa una sección de una página que enlaza a otras páginas o a otras partes dentro de la página. No todos los grupos de enlaces en una página necesita estar en un elemento "nav", sólo las secciones que constan de bloques de navegación principales son apropiadas para el elemento de navegación.  
+        </li>
+        <li>
+            <strong>footer</strong>: representa el pie de una sección, con información acerca de la página/sección que poco tiene que ver con el contenido de la página, como el autor, el copyright o el año. 
+        <li>
+            <strong>hgroup</strong>: representa el encabezado de una sección. El elemento se utiliza para agrupar un conjunto de elementos h1-h6 cuando el título tiene varios niveles, tales como subtítulos o títulos alternativos.
+        </li>
+        <li>
+            <strong>time</strong>: representa o bien una hora (en form ato de 24 horas), o una fecha precisa en el calendario gregoriano (en formato I SO), opcionalmente con un tiempo y un desplazamiento de zona horaria.
+        </li>
+        
+        GARRO, A. (2014). Html5. licencia Creative Commons <br>
+        <a href="https://www.academia.edu/54171213/HTML5.pdf">https://www.academia.edu/54171213/HTML5.pdf</a>
+    
+    </p>
+    <img src="img\img1.png" alt="Estructura Pagina Web">
+</article>
+<article>
+    <p>
+        <h4>CSS Grid</h4>
+        CSS Grid ofrece un sistema de diseño basado en cuadriculas, con filas y columnas que facilitan el diseño de páginas sin el uso de funciones adicionales. Es de gran importancia por ser compatible con los navegadores comúnmente usados en la actualidad <br>
+        Sus principales propiedades son: <br>
+    <li>
+        <strong>column-gap</strong>: Especifica el espacio entre las columnas.
+    </li> 
+    <li>
+        <strong>gap</strong>: Una propiedad abreviada para las propiedades de espacio entre filas y espacio entre columnas
+    </li> 
+    <li>
+        <strong>grid:</strong>Una propiedad abreviada para las propiedades grid-template-rows, grid-template-columns, grid-template-areas, grid-auto-rows, grid-auto-columns y grid-auto-flow
+    </li>
+    <li>
+        <strong>grid-area</strong>: Especifica un nombre para el elemento de cuadrícula, o esta propiedad es una propiedad abreviada para las propiedades grid-row-start, grid-column-start, grid-row-end y grid-column-end
+    </li> 
+    <li>
+        <strong>grid-auto-columns</strong>: Especifica un tamaño de columna predeterminado
+    </li>
+    <li>
+        <strong>grid-auto-flow</strong> : Especifica cómo se insertan en la cuadrícula los elementos colocados automáticamente
+    </li>
+    <li>
+        <strong>grid-auto-rows</strong>: Especifica un tamaño de fila predeterminado
+    </li>
+    <li>
+        <strong>grid-column</strong>: Una propiedad abreviada para las propiedades grid-column-start y grid-column-end
+    </li>
+    <li>
+        <strong>grid-column-end</strong>: Especifica dónde terminar el elemento de la cuadrícula.
+    </li>
+    <li>
+        <strong>grid-column-gap</strong>: Especifica el tamaño del espacio entre columnas.
+    </li> 
+    <li>
+        <strong>grid-column-start</strong>: Especifica dónde comenzar el elemento de la cuadrícula.
+    </li>
+    <li>
+        <strong>grid-gap</strong>: Una propiedad abreviada para las propiedades grid-row-gap y grid-column-gap
+    </li>
+    <li>
+        <strong>grid-row</strong>: Una propiedad abreviada para las propiedades grid-row-start y grid-row-end
+    </li>
+    <li>
+        <strong>grid-row-end</strong>: Especifica dónde terminar el elemento de la cuadrícula.
+    </li>
+    <li>
+        <strong>grid-row-gap</strong>: Especifica el tamaño del espacio entre filas
+    </li>
+    <li>
+        <strong>grid-row-start</strong>: Especifica dónde comenzar el elemento de la cuadrícula.
+    </li>
+    <li>
+        <strong>grid-template</strong>: Una propiedad abreviada para las propiedades grid-template-rows, grid-template-columns y grid-areas
+    </li>
+    <li>
+        <strong>grid-template-areas</strong>: Especifica cómo mostrar columnas y filas, utilizando elementos de cuadrícula con nombre
+    </li>
+    <li>
+        <strong>grid-template-columns</strong>: Especifica el tamaño de las columnas y cuántas columnas en un diseño de cuadrícula
+    </li>
+    <li>
+        <strong>grid-template-rows</strong>: Especifica el tamaño de las filas en un diseño de cuadrícula
+    </li>
+    <li>
+        <strong>row-gap</strong>: Especifica el espacio entre las filas de la cuadrícula.
+    </li>
+    Refsnes Data.(2022).  CSS Grid Layout Module <br>
+    <a href="https://www.w3schools.com/css/css_intro.asp">https://www.w3schools.com/css/css_intro.asp</a>
+    
+    </p>
+    <img src="img\img2.jpg" alt="CSS">
+</article>
+<h4>Mockup</h4>
+<img src="img\img3.JPG" alt="Mockup">
+<footer>
+    email: dgbeltranv@unadvirtual.edu.co <br>
+    skype: diebelvargas
+    Marzo de 2022
+</footer>
+</body>
+</html>
